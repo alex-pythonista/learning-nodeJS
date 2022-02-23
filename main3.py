@@ -1,12 +1,12 @@
-# all about dictionaries
+# defining the regular function
+def welcome(message):
+    return message
 
-# key: value
-employee_info = {
-    'name': 'Reza',
-    'age': '25',
-    'salary': '50000',
-}
-# .values()
-keys = sorted(["name", "age", "salary"])
+# defining the higher-order function.
+# func parameter is for a function
+# name parameter is for a string type variable
+def greet(func, name):
+    greeting = func("Hi, " + name + "! " + "Welcome to the playground.")
+    print(greeting)
 
-print(keys)
+greet(welcome, "Alex")

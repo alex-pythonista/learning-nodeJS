@@ -1,0 +1,6 @@
+{
+    "name": "Sale Order Line Discount - Production",
+    "mail": {
+        "host": "prod-mail-server"
+    }
+}
